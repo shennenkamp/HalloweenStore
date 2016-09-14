@@ -1,0 +1,40 @@
+* {
+    font-family: Arial;
+}
+
+.title{
+    color: orange;
+    font-style: italic;
+    text-shadow: 0px 0 black, 2px 2px black, 2px 2px black, 0 0px black;
+}
+
+.bigLetter::first-letter{
+    font-size: 200%;
+}
+
+h1{
+    font-size:200%
+}
+h3{
+    font-size:155%;
+}
+.pumpkin {
+    float: left;
+}
+.indent{
+    text-indent: 40px;
+}
+a{
+    color: orange;
+    font-weight: bold;
+}
+a:hover{
+    color: green;
+}
+li{
+    margin: 0 0 10px 0;
+}
+footer{
+    font-size: 75%;
+    text-align: center;
+}
