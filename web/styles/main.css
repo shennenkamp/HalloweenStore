@@ -9,6 +9,12 @@
 h1 {
   font-size:200%
 }
+
+h2{
+	margin: 0;
+	padding-top: 5px;
+}
+
 h3 {
   font-size:155%;
 }
@@ -36,6 +42,7 @@ footer {
 	border-top-color: black;
 	border-top-style: solid;
  	border-top-width: 2px;
+	clear: left;
   font-size: 75%;
   text-align: center;
 }
@@ -69,8 +76,23 @@ html {
 	padding-top: 15px;
 }
 
-.padBot{
+.padBot {
 		margin-bottom: 0;
 		padding-bottom: 10px;
 		padding-top: 15px;
+}
+
+#sidebar {
+	float: left;
+	width: 160px;
+	padding-right: 20px;
+	margin-bottom: 450px;
+}
+
+.cat{
+	padding-right: 450px;
+}
+
+.hide{
+	display: none;
 }
