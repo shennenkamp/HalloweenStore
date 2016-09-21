@@ -34,7 +34,7 @@ h3 {
   color: green;
 }
 #sidebar li {
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0;
 }
 footer {
   background-color: orange;
@@ -82,15 +82,8 @@ html {
   padding-top: 15px;
 }
 
-#sidebar {
-  float: left;
-  width: 160px;
-  padding-right: 20px;
-  margin-bottom: 450px;
-}
-
 .cat{
-  padding-right: 450px;
+  padding-right: 400px;
 }
 
 .hide{
@@ -108,19 +101,43 @@ html {
 }
 
 #menu ul li a {
+	background-color: black;
+	color: white;
   display: block;
-  color: white;
-  background-color: black;
-  padding: 10px 41px;
+	font-weight: bold;
+  padding-top: 10px;
+	padding-bottom: 10px;
   text-decoration: none;
+	text-align: center;
+	width: 160px;
 }
 
 #menu a:hover {
   background-color: gray;
 }
 
-#menu a:visited {
-  color: orange;
+#menu ul li a.current {
+	color:orange;
+}
+
+#menu2 ul {
+	background-color: white;
+	float: left;
+	list-style-type: none;
+	margin-bottom: 350px;
+	margin-left: 10px;
+	padding-right: 30px;
+	padding-left: 0;
+}
+
+#menu2 ul li a {
+	background-color: orange;
+	border-style: solid;
+	color: black;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	width: 160px;
 }
 
 
