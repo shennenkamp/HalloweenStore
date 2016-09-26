@@ -13,7 +13,8 @@ h2{
 
 h3 {
   font-size:155%;
-	margin-top: 0px;
+  margin-top: 0;
+	padding-top: 50px;
 }
 .pumpkin {
   float: left;
@@ -79,6 +80,10 @@ html {
   padding-top: 15px;
 }
 
+.cat{
+  padding-right: 400px;
+}
+
 .hide{
   display: none;
 }
@@ -128,53 +133,30 @@ html {
 	border-style: solid;
 	color: black;
 	display: inline-block;
-	padding: 10px;
 	text-decoration: none;
+	padding: 10px;
 	width: 160px;
 }
 
-.cat {
+label {
+	display: inline-block;
 	float: left;
-	padding-right: 15px;
+	padding-right: 50px;
+	text-align: right;
+	width: 100px;
 }
 
-.catText {
-	display: block;
+input {
+	display: inline-block;
+	width: 40%;
 }
 
-#menu3 {
-	background-color: #F5DEB3;
-	float: right;
-	padding: 10px;
-	width: 180px;
+#button {
+	background-color: orange;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	width: 10%;
 }
 
-#menu3 figure a {
-	color: black;
-}
 
-#menu3 figure a:hover {
-	color: green;
-}
-
-#menu3 li {
-	list-style-type: none;
-}
-
-#menu3 ul {
-	margin: 0;
-	padding: 0;
-}
-
-#menu3 figure {
-	margin-left: 0;
-	padding-left: 0;
-}
-
-#menu3 h4 {
-	margin-top: 2px;
-}
-
-#menu {
-	float: top;
-}
